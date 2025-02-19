@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: #34b3dc;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #eefbfd;
+    font-family: "Open Sans", serif;
+}
+
+h2 {
+    color: #eefbfd;
+    font-family: "Open Sans", serif;
+}
+
+
+form {
+    color: #eefbfd;
+    font-family: "Open Sans", serif;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+input, button {
+    border: none;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #eefbfd;
+    padding: 10px;
+    border: 2px solid #eefbfd;
+
+}
+
+td {
+    background-color: #1779a3;
+    color: #eefbfd;
+    padding: 10px;
+    border: 2px solid #eefbfd;
+}
+
+.delete-btn {
+    color: red;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.delete-btn:hover {
+    color: darkred;
+}

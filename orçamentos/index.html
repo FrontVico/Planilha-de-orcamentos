@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Orçamentos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <h1>Plataforma de Orçamentos</h1>
+    
+    <form id="orcamento-form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+    
+        <label for="tipoServico">Tipo de Serviço:</label>
+        <select id="tipoServico">
+            <option value="serviço1">Serviço 1</option>
+            <option value="serviço2">Serviço 2</option>
+        </select>
+    
+        <label for="metragem">Metragem (M²):</label>
+        <input type="number" id="metragem">
+    
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco">
+    
+        <label for="valor">Valor (R$):</label>
+        <input type="number" id="valor">
+    
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Lista de Orçamentos</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Serviço</th>
+                <th>Metragem (M²)</th>
+                <th>Valor (R$)</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="orcamentos-list">
+            <!-- Orçamentos serão inseridos aqui via JS -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
